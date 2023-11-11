@@ -42,7 +42,8 @@ class _WiFiSearchPageState extends State<WiFiSearchPage> {
                 itemCount: 10,
                 shrinkWrap: true,
                 itemBuilder: (context, index) {
-                  return UnitCardWiFi();
+                  return Text("use data below");
+                  // return UnitCardWiFi(photos[index].url, photos[index].name);
                 },
               ),
             ),

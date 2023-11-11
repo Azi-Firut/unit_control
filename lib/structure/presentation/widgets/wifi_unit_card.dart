@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
 class UnitCardWiFi extends StatefulWidget {
-  const UnitCardWiFi({super.key});
-
+  UnitCardWiFi({
+    super.key,
+    required this.unitImage,
+    required this.unitSsid,
+  });
+  final String unitImage;
+  final String unitSsid;
   @override
   State<UnitCardWiFi> createState() => _UnitCardWiFiState();
 }
@@ -19,11 +24,12 @@ class _UnitCardWiFiState extends State<UnitCardWiFi> {
         color: Colors.white,
         child: Column(
           children: [
-            Image.asset("assets/images/units/RESEPI-XT32-1.png"),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
+            Image.network(widget.unitImage),
+            //  Image.asset(widget.unitImage),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
               child: Text(
-                "Unit WiFi SSID",
+                widget.unitSsid,
                 textScaleFactor: 1.4,
               ),
             ),

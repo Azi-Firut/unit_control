@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 //---------------------------
+const urlRequestWiFiSsids = "https://breakingbadapi.com/api/characters";
+//---------------------------
 final List<String> ssidNames = [
   "RED",
   "YELLOW",
