@@ -21,12 +21,12 @@
   },
   {
     "name":"MARSS", 
-     "pass":"DatasolInnoLabs",
+    "pass":"DatasolInnoLabs",
     "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/marss.png"
   },
   {
     "name":"MICRO", 
-     "pass":"MICRoLiDAR",
+    "pass":"MICRoLiDAR",
     "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/micro.png"
   }
 ]
