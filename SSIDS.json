@@ -7,7 +7,7 @@
    {
     "name":"RESEPI", 
     "pass":"LidarAndINS",
-    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/inertial.jpg?raw=true"
+    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/inertial.png?raw=true"
   },
   {
     "name":"WINGTRA",
@@ -17,7 +17,7 @@
   {
     "name":"PHOENIX", 
     "pass":"LidarAndINS",
-    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/phoenix.jpg?raw=true"
+    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/phoenix.png?raw=true"
   },
   {
     "name":"MARSS", 
