@@ -1,31 +1,19 @@
-class Beer {
-  final int id;
+class SsidsFromUrl {
   final String name;
-  final String tagline;
-  final String description;
-  final String image_url;
+  final String pass;
+  final String url;
 
-  Beer.fromJSON(Map<String, dynamic> jsonMap)
-      : id = jsonMap['id'],
-        name = jsonMap['name'],
-        tagline = jsonMap['tagline'],
-        description = jsonMap['description'],
-        image_url = jsonMap['image_url'];
-}
+  const SsidsFromUrl({
+    required this.name,
+    required this.pass,
+    required this.url,
+  });
 
-class Character {
-  int id;
-  String name;
-  String img;
-  String nickname;
-
-  Character.fromJson(Map json)
-      : id = json['id'],
-        name = json['name'],
-        img = json['img'],
-        nickname = json['nickname'];
-
-  Map toJson() {
-    return {'id': id, 'name': name, 'img': img, 'nickname': nickname};
+  factory SsidsFromUrl.fromJson(Map<String, dynamic> json) {
+    return SsidsFromUrl(
+      name: json['name'] as String,
+      pass: json['pass'] as String,
+      url: json['url'] as String,
+    );
   }
 }

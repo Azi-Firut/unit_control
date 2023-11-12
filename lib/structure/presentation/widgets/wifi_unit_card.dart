@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unit_control/constant.dart';
 
 class UnitCardWiFi extends StatefulWidget {
   UnitCardWiFi({
@@ -20,7 +21,7 @@ class _UnitCardWiFiState extends State<UnitCardWiFi> {
       child: Card(
         shadowColor: Colors.black,
         elevation: 8,
-        surfaceTintColor: Colors.white,
+        surfaceTintColor: bgColorGrey,
         color: Colors.white,
         child: Column(
           children: [
