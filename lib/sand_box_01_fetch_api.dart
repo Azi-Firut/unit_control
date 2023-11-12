@@ -23,27 +23,21 @@ List<Photo> parsePhotos(String responseBody) {
 }
 
 class Photo {
-  // final int albumId;
-  // final int id;
   final String name;
+  final String pass;
   final String url;
-  //final String thumbnailUrl;
 
   const Photo({
-    // required this.albumId,
-    // required this.id,
     required this.name,
+    required this.pass,
     required this.url,
-    // required this.thumbnailUrl,
   });
 
   factory Photo.fromJson(Map<String, dynamic> json) {
     return Photo(
-      // albumId: json['albumId'] as int,
-      // id: json['id'] as int,
       name: json['name'] as String,
+      pass: json['pass'] as String,
       url: json['url'] as String,
-      //  thumbnailUrl: json['thumbnailUrl'] as String,
     );
   }
 }
@@ -90,7 +84,7 @@ class PhotosList extends StatelessWidget {
   Widget build(BuildContext context) {
     print(photos.length);
     return ListView.builder(
-      itemCount: 10,
+      itemCount: photos.length,
       shrinkWrap: true,
       itemBuilder: (context, index) {
         return UnitCardWiFi(
