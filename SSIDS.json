@@ -2,31 +2,31 @@
    {
     "name":"FLIGHTS",
     "pass":"FLIGHTSscan",
-    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/flights.png?raw=true"
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/flights.png?raw=true"
   },
    {
     "name":"RESEPI", 
     "pass":"LidarAndINS",
-    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/inertial.png?raw=true"
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/inertial.png?raw=true"
   },
   {
     "name":"WINGTRA",
     "pass":"WingtraLidar",
-    "url": "https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/wingtra.png?raw=true"
+    "logo": "https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/wingtra.png?raw=true"
   },
   {
     "name":"PHOENIX", 
     "pass":"LidarAndINS",
-    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/phoenix.png?raw=true"
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/phoenix.png?raw=true"
   },
   {
     "name":"MARSS", 
     "pass":"DatasolInnoLabs",
-    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/marss.png?raw=true"
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/marss.png?raw=true"
   },
   {
     "name":"MICRO", 
     "pass":"MICRoLiDAR",
-    "url":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/micro.png?raw=true"
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/micro.png?raw=true"
   }
 ]
