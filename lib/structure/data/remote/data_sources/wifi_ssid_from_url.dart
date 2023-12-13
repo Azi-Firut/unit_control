@@ -8,7 +8,7 @@ Future<List<SsidsFromUrl>> fetchSsidsFromUrl(http.Client client) async {
   final response = await client.get(Uri.parse(
       'https://raw.githubusercontent.com/Azi-Firut/unit_control/master/SSIDS.json'));
 
-  // Use the compute function to run parsePhotos in a separate isolate.
+  // Use the compute function to run parseSSiD in a separate isolate.
   return compute(parseSsidFromUrl, response.body);
 }
 

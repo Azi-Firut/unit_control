@@ -43,8 +43,9 @@ class _WiFiSearchPageState extends State<WiFiSearchPage> {
               child: Text('An error has occurred!'),
             );
           } else if (snapshot.hasData) {
-            print("---------------Snapshot data NOT EMPTY");
-            return PhotosList(photos: snapshot.data!);
+            debugPrint("WiFiSearchPage - Snapshot data NOT EMPTY");
+            return ScrollListOfScannedWiFi(
+                listOfMapsParsedSSiDSandPass: snapshot.data!);
           } else {
             return const Center(
               child: CircularProgressIndicator(),
@@ -56,23 +57,29 @@ class _WiFiSearchPageState extends State<WiFiSearchPage> {
   }
 }
 
-class PhotosList extends StatelessWidget {
-  const PhotosList({super.key, required this.photos});
+class ScrollListOfScannedWiFi extends StatelessWidget {
+  const ScrollListOfScannedWiFi(
+      {super.key, required this.listOfMapsParsedSSiDSandPass});
 
-  final List<SsidsFromUrl> photos;
+  final List<SsidsFromUrl> listOfMapsParsedSSiDSandPass;
 
   @override
   Widget build(BuildContext context) {
-    print(photos.length);
+    debugPrint(
+        "WiFiSearchPage - ScrollListOfScannedWiFi -${listOfMapsParsedSSiDSandPass.length}");
+    debugPrint(
+        "WiFiSearchPage - ScrollListOfScannedWiFi - ${listOfMapsParsedSSiDSandPass.runtimeType}");
+
     return Container(
       color: bgColorGrey,
       child: ListView.builder(
-        itemCount: photos.length,
+        itemCount: listOfMapsParsedSSiDSandPass.length,
         shrinkWrap: true,
         itemBuilder: (context, index) {
           return UnitCardWiFi(
-            unitImage: photos[index].url,
-            unitSsid: photos[index].name,
+            unitImage: listOfMapsParsedSSiDSandPass[index].logo,
+            unitSsid: listOfMapsParsedSSiDSandPass[index].name,
+            unitPass: listOfMapsParsedSSiDSandPass[index].pass,
           );
         },
       ),
