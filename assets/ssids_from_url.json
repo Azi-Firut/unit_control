@@ -1,0 +1,52 @@
+[
+  {
+    "name":"RESEPI",
+    "pass":"LidarAndINS",
+    "logo":"assets/images/logo/inertial.png"
+  },
+  {
+    "name":"PHOENIX",
+    "pass":"LidarAndINS",
+    "logo":"assets/images/logo/phoenix.png"
+  },
+  {
+    "name":"FLIGHTS",
+    "pass":"FLIGHTSscan",
+    "logo":"assets/images/logo/flights.png"
+  },
+  {
+    "name":"TRIDAR",
+    "pass":"L!DAR2020",
+    "logo":"assets/images/logo/triad.png"
+  },
+  {
+    "name":"MICRO",
+    "pass":"MICRoLiDAR",
+    "logo":"assets/images/logo/micro.png"
+  },
+  {
+    "name":"LIDARUSA",
+    "pass":"scanlook",
+    "logo":"assets/images/logo/inertial.png"
+  },
+  {
+    "name":"MARSS",
+    "pass":"DatasolInnoLabs",
+    "logo":"assets/images/logo/marss.png"
+  },
+  {
+    "name":"TERSUS",
+    "pass":"LidarAndINS",
+    "logo": "assets/images/logo/tersus.png"
+  },
+  {
+    "name":"WINGTRA",
+    "pass":"WingtraLidar",
+    "logo": "assets/images/logo/wingtra.png"
+  },
+  {
+    "name":"STONEX",
+    "pass":"StonexXFLY",
+    "logo":"assets/images/logo/stonex.png"
+  }
+]

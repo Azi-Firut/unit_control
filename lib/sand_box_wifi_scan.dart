@@ -4,7 +4,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:wifi_scan/wifi_scan.dart';
 
+/// Example app for wifi_scan plugin.
 class MyApp extends StatefulWidget {
+  /// Default constructor for [MyApp] widget.
   const MyApp({Key? key}) : super(key: key);
 
   @override
@@ -13,18 +15,10 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   List<WiFiAccessPoint> accessPoints = <WiFiAccessPoint>[];
-
   StreamSubscription<List<WiFiAccessPoint>>? subscription;
   bool shouldCheckCan = true;
-  bool get isStreaming => subscription != null;
 
-  @override
-  initState() {
-    super.initState();
-    _getScannedResults(context);
-    final niga = accessPoints.single;
-    debugPrint("MyAppWiFiScan - $niga");
-  }
+  bool get isStreaming => subscription != null;
 
   Future<void> _startScan(BuildContext context) async {
     // check if "can" startScan
@@ -84,7 +78,6 @@ class _MyAppState extends State<MyApp> {
     super.dispose();
     // stop subscription for scanned results
     _stopListeningToScanResults();
-    debugPrint("Scan WiFi STOPPED");
   }
 
   // build toggle with label

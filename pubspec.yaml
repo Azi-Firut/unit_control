@@ -31,18 +31,26 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  vertical_card_pager: ^1.5.0
+ # vertical_card_pager: ^1.5.0
   http: ^1.1.0
-  wifi_iot: ^0.3.18+1
-  connectivity: ^3.0.3
+  wifi_iot: ^0.3.19
+  android_intent_plus: ^4.0.3
+
+  # connectivity: ^3.0.3
+  wifi_scan: ^0.4.1
+  webview_flutter: ^2.0.13
+  permission_handler: ^11.1.0
+  android_flutter_wifi: ^0.1.2
 #----------------------------------------
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  wifi_scan: ^0.4.0+2
   wiflutter: ^0.0.6
+  wifi_iot: ^0.3.19
+  permission_handler: ^11.1.0
+  url_launcher: ^6.2.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -55,7 +63,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/units/
+   - assets/
+   - assets/images/logo/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
