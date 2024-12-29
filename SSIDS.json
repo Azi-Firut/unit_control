@@ -1,32 +1,52 @@
 [ 
    {
+    "name":"RESEPI", 
+    "pass":"LidarAndINS",
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/inertial.png?raw=true"
+  }, 
+   {
+    "name":"PHOENIX", 
+    "pass":"LidarAndINS",
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/phoenix.png?raw=true"
+  },
+   {
     "name":"FLIGHTS",
     "pass":"FLIGHTSscan",
     "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/flights.png?raw=true"
   },
    {
-    "name":"RESEPI", 
-    "pass":"LidarAndINS",
+    "name":"TRIDAR",
+    "pass":"L!DAR2020",
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/triad.png?raw=true"
+  },
+   {
+    "name":"ML", 
+    "pass":"MICRoLiDAR",
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/micro.png?raw=true"
+  },
+    {
+    "name":"LIDARUSA", 
+    "pass":"scanlook",
     "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/inertial.png?raw=true"
+  }, 
+   {
+    "name":"MARSS", 
+    "pass":"DatasolInnoLabs",
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/marss.png?raw=true"
+  },
+   {
+    "name":"TERSUS",
+    "pass":"LidarAndINS",
+    "logo": "https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/tersus.png?raw=true"
   },
   {
     "name":"WINGTRA",
     "pass":"WingtraLidar",
     "logo": "https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/wingtra.png?raw=true"
-  },
+  }, 
   {
-    "name":"PHOENIX", 
-    "pass":"LidarAndINS",
-    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/phoenix.png?raw=true"
-  },
-  {
-    "name":"MARSS", 
-    "pass":"DatasolInnoLabs",
-    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/marss.png?raw=true"
-  },
-  {
-    "name":"MICRO", 
-    "pass":"MICRoLiDAR",
-    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/micro.png?raw=true"
+    "name":"STONEX", 
+    "pass":"StonexXFLY",
+    "logo":"https://github.com/Azi-Firut/unit_control/blob/master/assets/images/logo/stonex.png?raw=true"
   }
 ]
